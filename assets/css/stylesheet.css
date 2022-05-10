@@ -22,6 +22,10 @@
     background-color: var(--secondary-color);
   }
 
+  ul {
+    list-style-type: none;
+  }
+
   header h1 {
     color: var(--primary-color);
     background-color: var(--secondary-color);
@@ -73,7 +77,9 @@
 
   .intro p {
     display: flex;
-  justify-content: flex-end;
+    justify-content: flex-end;
+    font-size: 18px; 
+    
   }
 
   .projects {
@@ -90,8 +96,62 @@
     justify-content: center;
   }
 
-  #single-image {
+  .project-img {
+    position: relative;
+  }
+
+  .buddytext {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 50px;
+  }
+
+  .textright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 50px;
+  }
+
+  #first-image {
     border: 5px solid var(--tertiary-color);
+  }
+
+  #second-image {
+    border: 5px solid var(--tertiary-color);
+  }
+
+  #third-image {
+    border: 5px solid var(--tertiary-color);
+  }
+
+  #fourth-image {
+    border: 5px solid var(--tertiary-color);
+  }
+
+  #fifth-image {
+    border: 5px solid var(--tertiary-color);
+  }
+
+  #first-image:hover {
+    opacity: .5;
+  }
+
+  #second-image:hover {
+    opacity: .5;
+  }
+
+  #third-image:hover {
+    opacity: .5;
+  }
+
+  #fourth-image:hover {
+    opacity: .5;
+  }
+
+  #fifth-image:hover {
+    opacity: .5;
   }
 
   footer {
