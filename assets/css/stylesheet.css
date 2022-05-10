@@ -5,9 +5,9 @@
   }
   
   * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #EEEEEE;
   }
   
   body {
@@ -23,28 +23,57 @@
   }
 
   header h1 {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 
   }
 
   header nav {
+    background-color: var(--secondary-color);
 
   }
 
-  header ul {
-
+  header ul li {
+    background-color: var(--secondary-color);
 
   }
 
+  header ul li a {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+  }
+
+  .banner-container {
+    position: relative;
+  }
+
+  .banner-container .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 100%;
+    width: 10%;
+    height: auto;
+  }
+
+  .banner-container #banner {
+    width: 100%;
+    height: auto;
+  }
+  
   .intro {
 
   }
 
   .intro h2 {
 
+
   }
 
   .intro p {
-
+    display: flex;
+  justify-content: flex-end;
   }
 
   .projects {
@@ -65,18 +94,35 @@
     border: 5px solid var(--tertiary-color);
   }
 
-  .contact {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+  }
+
+  footer h3 {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 
   }
 
-  .contact h2 {
+  footer p {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+  }
+
+  footer nav {
+    background-color: var(--secondary-color);
 
   }
 
-  .contact p {
+  footer ul li {
+    background-color: var(--secondary-color);
 
   }
 
-  .contact ul li {
-
+  footer ul li a {
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
   }
