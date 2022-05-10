@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #CCD5AE;
-    --secondary-color: #D4A373;
-    --tertiary-color: #FEFAE0;
+    --primary-color: #F4A261;
+    --secondary-color: #264653;
+    --tertiary-color: #2A9D8F;
   }
   
   * {
@@ -10,3 +10,73 @@
     padding: 0;
   }
   
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+  }
+
+  header h1 {
+
+  }
+
+  header nav {
+
+  }
+
+  header ul {
+
+
+  }
+
+  .intro {
+
+  }
+
+  .intro h2 {
+
+  }
+
+  .intro p {
+
+  }
+
+  .projects {
+    
+  }
+
+  .projects h2 {
+
+  }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #single-image {
+    border: 5px solid var(--tertiary-color);
+  }
+
+  .contact {
+
+  }
+
+  .contact h2 {
+
+  }
+
+  .contact p {
+
+  }
+
+  .contact ul li {
+
+  }
