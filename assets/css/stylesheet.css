@@ -17,10 +17,15 @@
     
   }
 
-  img {
-    max-width: 100%;
-    height: auto;
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  /* Header */
 
   header {
     padding: 40px 70px;
@@ -30,28 +35,14 @@
     background-color: var(--secondary-color);
   }
 
-
   header h1 {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     background-color: var(--secondary-color);
     font-size: 50px;
-
   }
 
   header nav {
     background-color: var(--secondary-color);
-
-  }
-
-  ul {
-    list-style-type: none;
-  }
-
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
   }
 
   header nav li {
@@ -60,13 +51,21 @@
     font-weight: bold;
     padding: 20px;
     background-color: var(--secondary-color);
-
   }
 
   header ul li a {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     background-color: var(--secondary-color);
     text-decoration: none;
+  }
+
+  /* Header End */
+
+  /* Banner */
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   .banner-container {
@@ -88,7 +87,11 @@
     height: auto;
   }
 
-  .intro h2 {
+  /* Banner End */
+
+  /* About Me */
+
+  .intro h2, .projects h2 {
     text-align: center;
     font-size: 50px;
     border-top: 5px solid;
@@ -103,14 +106,9 @@
     
   }
 
-  .projects h2 {
-    text-align: center;
-    font-size: 50px;
-    border-top: 5px solid;
-    border-bottom: 5px solid;
-    margin: 0 auto 20px auto;
-  }
+  /* About Me End */
 
+  /* My Work */
 
   .image-container {
     display: flex;
@@ -136,6 +134,8 @@
     right: 16px;
     font-size: 50px;
   }
+
+/* Add a border to each individual box & hover on individual images to lower the opacity */
 
   #first-image {
     border: 5px solid var(--tertiary-color);
@@ -177,6 +177,10 @@
     opacity: .5;
   }
 
+  /* My Work End */
+
+  /* Footer */
+
   footer {
     display: flex;
     flex-wrap: wrap;
@@ -186,7 +190,7 @@
   }
 
   footer h1 {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
     background-color: var(--secondary-color);
 
   }
@@ -208,17 +212,13 @@
     background-color: var(--secondary-color);
   }
 
-  footer ul {
-    background-color: var(--secondary-color);
-  }
-
-
   footer ul li {
     background-color: var(--secondary-color);
 
   }
 
   footer ul li a {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     background-color: var(--secondary-color);
+    text-decoration: none;
   }
