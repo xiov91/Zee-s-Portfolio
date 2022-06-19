@@ -125,14 +125,14 @@
     position: absolute;
     bottom: 8px;
     left: 16px;
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .textright {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    font-size: 50px;
+    font-size: 30px;
   }
 
 /* Add a border to each individual box & hover on individual images to lower the opacity */
